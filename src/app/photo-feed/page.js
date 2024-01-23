@@ -1,8 +1,8 @@
-import Link from "next/link";
-import wonders from "./wonders";
-import Image from "next/image";
+import Link from 'next/link';
+import wonders from './wonders';
+import Image from 'next/image';
 
-export default function Wonders() {
+export default function PhotoFeed() {
   return (
     <main className="container mx-auto">
       <h1 className="text-center text-3xl font-bold my-4">

@@ -17,7 +17,7 @@ export default function AuthLayout({ children }) {
   return (
     <>
       <div>
-        <input className="border border-gray-300 mt-2" type="text" onChange={(e) => setInput(e.target.value)} />
+        <input value={input} className="border border-gray-300 mt-2" type="text" onChange={(e) => setInput(e.target.value)} />
       </div>
       <nav>
         {navLinks.map(({ name, href }, idx) => (
