@@ -3,6 +3,7 @@ import wonders from './wonders';
 import Image from 'next/image';
 
 export default function PhotoFeed() {
+  console.log('hello from feed')
   return (
     <main className="container mx-auto">
       <h1 className="text-center text-3xl font-bold my-4">
